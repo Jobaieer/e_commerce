@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Sixtyfour+Convergence&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Arvo", serif;
+}
+
+.ss__padding {
+  padding: 0px 100px;
+}
+
+#header {
+  background-color: #333;
+  height: 100vh;
+}
+
+.header__navber {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(199, 199, 199);
+}
+
+.header__navber-logo {
+  font-size: 30px;
+  font-family: "Sixtyfour Convergence";
+  cursor: pointer;
+}
+
+.header__navbar-menu {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.header__navbar-item {
+  list-style: none;
+}
+
+.header__navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.header__navbar-link:hover {
+  color: tomato;
+}
+
+.header__navber-button {
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Arvo";
+}
+
+.header__navber-button:hover {
+  background-color: #ffa392;
+  color: tomato;
+}
+
+#main {
+  background-image: white;
+  height: 100vh;
+}
+
+#footer {
+  background-color: black;
+  color: lightgray;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer__left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer__left-logo {
+  font-size: 3rem;
+  font-family: "Sixtyfour Convergence";
+}
+
+.footer__left-description {
+  font-size: 1.2rem;
+}
+
+.footer__right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__right-social-media {
+  display: flex;
+  gap: 50px;
+}
+
+.footer__right-social-media-item {
+  list-style: none;
+}
+
+.footer__right-social-media-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: tomato;
+}
+
+.footer__right-social-media-link:hover {
+  color: gray;
+}
