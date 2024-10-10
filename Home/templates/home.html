@@ -7,8 +7,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Commerce | Home</title>
 
-    <link rel="stylesheet" href="{% static "css/home.css" %}}" />
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header Start -->
+    <header id="header" class="ss__padding">
+      <!-- Navigation Bar Start -->
+      <nav class="header__navber">
+        <h1 class="header__navber-logo">Audiofy</h1>
+        <ul class="header__navbar-menu">
+          <li class="header__navbar-item">
+            <a href="{% url 'home' %}" class="header__navbar-link">Home</a>
+          </li>
+          <li class="header__navbar-item">
+            <a href="#" class="header__navbar-link">About</a>
+          </li>
+          <li class="header__navbar-item">
+            <a href="#" class="header__navbar-link">Products</a>
+          </li>
+          <li class="header__navbar-item">
+            <a href="#" class="header__navbar-link">Contact</a>
+          </li>
+        </ul>
+        <button class="header__navber-button">Checkout</button>
+      </nav>
+      <!-- Navigation Bar End -->
+
+      <!-- Hero Section Start -->
+      <section id="hero"></section>
+      <!-- Hero Section End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main id="main"></main>
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+    <footer id="footer" class="ss__padding">
+      <div class="footer__left">
+        <h1 class="footer__left-logo">Audiofy</h1>
+        <p class="footer__left-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          officiis quas esse adipisci est. Sit veritatis quia alias hic quo
+          deleniti blanditiis debitis eveniet nulla molestias rerum atque, totam
+          unde?
+        </p>
+        <p class="footer__left-copyright">
+          Copyright &copy; 2022 Audiofy. All rights reserved.
+        </p>
+      </div>
+      <div class="footer__right">
+        <ul class="footer__right-social-media">
+          <li class="footer__right-social-media-item">
+            <a
+              href="https://facebook.com/jobaieer/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__right-social-media-link"
+            >
+              Facebook
+            </a>
+          </li>
+          <li class="footer__right-social-media-item">
+            <a
+              href="https://github.com/jobaieer/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__right-social-media-link"
+            >
+              GitHub
+            </a>
+          </li>
+          <li class="footer__right-social-media-item">
+            <a
+              href="https://linkedin.com/in/jobaieer/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__right-social-media-link"
+            >
+              Linked In
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
   <script src="{% static 'js/home.js' %}}"></script>
 </html>
